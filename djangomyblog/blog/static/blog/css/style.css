@@ -18,7 +18,7 @@ body {
 
 /* Fundo da página */
 body {
-    background-image: linear-gradient(rgb(0, 177, 193), rgb(0, 64, 70));
+    background-image: linear-gradient(rgb(207, 251, 255), rgb(118, 178, 184));
 }
 
 /* Comportamento dos links */
@@ -80,6 +80,16 @@ header nav a:hover {
     background-color: rgba(255, 255, 255, .35);
 }
 
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > div span {
+    padding: 0 1rem;
+}
+
 /* Conteúdo principal */
 main {
     position: relative;
@@ -98,7 +108,6 @@ footer {
 
 .btn-logout {
     display: inline;
-    margin-left: .25rem;
 }
 
 .btn-logout button {
